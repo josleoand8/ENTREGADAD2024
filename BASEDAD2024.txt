@@ -51,7 +51,7 @@ CREATE TABLE devices(
 
 
 LOCK TABLES devices WRITE;
-INSERT INTO devices VALUES (19,'Device number 3',3,'mqttChannelDevice3',99999994,99999995,'Serial number 3'),(20,'Device number 1',1,'mqttChannelDevice1',99999999,99999998,'Serial number 1');
+INSERT INTO devices VALUES (23,'Device number 3',300,'mqttChannelDevice3',99999994,99999995,'Serial number 3'),(19,'Device number 3',3,'mqttChannelDevice3',99999994,99999995,'Serial number 3'),(20,'Device number 1',1,'mqttChannelDevice1',99999999,99999998,'Serial number 1');
 UNLOCK TABLES;
 
 
