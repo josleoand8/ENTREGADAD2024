@@ -67,7 +67,7 @@ CREATE TABLE groups(
 
 LOCK TABLES groups WRITE;
 
-INSERT INTO groups VALUES (1,'hola3','hola2',123142123),(2,'canal MQTT','primer grupo',1678807684302),(3,'Device number 3','mqttChannelDevice3',1678986903555);
+INSERT INTO groups VALUES (1,'hola3','hola2',123142123),(2,'canal MQTT','primer grupo',1678807684302),(3,'Device number 3','mqttChannelDevice3',1678986903555),(300,'Device number 3','mqttChannelDevice3',1678986903555);
 UNLOCK TABLES;
 
 
